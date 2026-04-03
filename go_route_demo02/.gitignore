@@ -43,3 +43,17 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+
+# Ignore everything
+*
+
+# But keep these
+!.gitignore
+!lib/
+!assets/
+
+# Keep contents inside allowed folders
+!lib/**
+!assets/**
